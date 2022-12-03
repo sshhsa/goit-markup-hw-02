@@ -1,0 +1,194 @@
+:root {
+    --dark-blue-color: #2E2F42;
+    --white-color: #FFFFFF;
+    --light-gray-color: #F4F4FD;
+    --gray-color: #434454;
+    --white-color-footer: #E7E9FC;
+    --blue-color: #4D5AE5;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Header and Footer*/
+.main-link {
+    width: 71px;
+    height: 24px;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 800;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.first-part {
+    color: var(--blue-color);
+}
+
+.second-part-1 {
+    color: var(--dark-blue-color);
+}
+
+.second-part-2 {
+    color: var(--light-gray-color);
+}
+
+/*Header*/
+.top-part {
+    width: 1440px;
+    background-color: var(--white-color);
+}
+
+/*For every list on the web*/
+.top-list,
+.list-purposes,
+.list-employments,
+.list-team {
+    list-style-type: none;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+}
+
+.nav-a {
+    text-decoration: none;
+    color: var(--dark-blue-color);
+}
+
+.nav-a:hover,
+.nav-a:focus {
+    color: var(--blue-color);
+}
+
+.contacts-a {
+    text-decoration: none;
+    color: var(--gray-color);
+}
+
+.contacts-a:hover,
+.contacts-a:focus {
+    color: var(--blue-color);
+}
+
+/*Effective solutions for your business*/
+.greeting {
+    width: 1440px;
+    height: 603px;
+    background-color: var(--dark-blue-color);
+}
+
+/*Button - Order Service*/
+.appeal-button {
+    width: 170px;
+    height: 51px;
+    border-radius: 4px;
+    padding: 16px 32px;
+    background-color: var(--blue-color);
+    color: var(--white-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.appeal-button:focus,
+.appeal-button:hover {
+    background: #404BBF;
+}
+
+/*Text for Effective....*/
+.main-starting {
+    font-size: 56px;
+    line-height: 60px;
+    letter-spacing: 0.02em;
+    color: var(--white-color);
+}
+
+/*Purposes*/
+.purposes {
+    width: 1128px;
+    background-color: var(--white-color);
+}
+
+/*Purposes > h2*/
+.purposes-title {
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: var(--dark-blue-color);
+}
+
+/*Purposes > p*/
+.purposes-text {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: var(--gray-color);
+}
+
+/*What Are We Doing?*/
+.employments {
+    width: 1128px;
+    background-color: var(--white-color);
+}
+
+.title-photos {
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--dark-blue-color);
+}
+
+/*Our Team*/
+
+.person-item {
+    width: 264px;
+    height: 380px;
+    background-color: var(--white-color);
+}
+
+.our-team {
+    background-color: var(--light-gray-color);
+}
+
+.title-photos-2 {
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--dark-blue-color);
+}
+
+/*Names of four persons*/
+.names {
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: var(--dark-blue-color);
+}
+
+/*Function of every participants*/
+.position {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: var(--gray-color);
+}
+
+/*Footer*/
+.floor {
+    width: 1440px;
+    height: 310px;
+    background-color: var(--dark-blue-color);
+}
+
+.footer-text {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: var(--white-color-footer);
+}
