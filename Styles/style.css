@@ -2,7 +2,7 @@
     --dark-blue-color: #2E2F42;
     --white-color: #FFFFFF;
     --light-gray-color: #F4F4FD;
-    --gray-color: #434454;
+    --gray-color: #434455;
     --white-color-footer: #E7E9FC;
     --blue-color: #4D5AE5;
 }
@@ -191,4 +191,111 @@ body {
     line-height: 24px;
     letter-spacing: 0.02em;
     color: var(--white-color-footer);
+}
+
+
+
+/*Styles for Portfolio*/
+
+.list-portfolio-nav {
+    width: 586px;
+}
+
+.button-all {
+    width: 69px;
+}
+
+.button-website {
+    width: 116px;
+}
+
+.button-app {
+    width: 78px;
+}
+
+.button-design {
+    width: 101px;
+}
+
+.button-marketing {
+    width: 126px;
+}
+
+.button-all,
+.button-website,
+.button-app,
+.button-design,
+.button-marketing {
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: var(--blue-color);
+    background-color: var(--light-gray-color);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    border-radius: 4px;
+    border: 1px solid var(--white-color-footer);
+    padding: 4px 8px;
+    height: 48px;
+}
+
+.button-all:hover,
+.buuton-all:focus,
+.button-website:hover,
+.buuton-website:focus,
+.button-app:hover,
+.buuton-app:focus,
+.button-design:hover,
+.buuton-design:focus,
+.button-marketing:hover,
+.buuton-marketing:focus {
+    color: var(--white-color);
+    background-color: var(--blue-color);
+    background: var(--blue-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+}
+
+.list-portfolio-nav,
+.list-portfolio-photos {
+    list-style-type: none;
+}
+
+.portfolio-photos {
+    text-decoration: none;
+}
+
+.li-portfolio {
+    width: 360px;
+    height: 420px;
+    background: var(--white-color);
+    border: 0.5px solid var(--light-gray-color);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+
+.li-portfolio:hover,
+.li-portfolio:focus {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+/*.portfolio-photo-2-text {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: calc(16 / 24);
+    color: var(--light-gray-color);
+}*/
+
+h2 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: var(--dark-blue-color);
+}
+
+h3 {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: var(--gray-color);
 }
